@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Music and Movies Trivia</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="mm.js"></script>
+    </head>
+
+    <body>
+        <button type="button" onclick="left()" id="left" class="btn btn-labeled btn-default">
+            <span class="btn-label"><i class="fa fa-chevron-left"></i></span></button>
+        <center>
+            <h1 id="musi">Music and Movies</h1>
+            <h3>Points:</h3><h3 id="points">0</h3>
+            <hr>
+            <BR>
+            <h2>1) Who plays spider-man in "The Amazing Spider-Man" movie  </h2>
+            <br>
+            <button id="aa"class="button"  onclick="aa(this, 'green')" >A) Andrew Garfield </button>
+            <br>
+            <br>
+            <button id="bb" class="button" onclick="bb(this, 'red')" >B) Tom Holland </button>
+            <br>
+            <br>
+            <button id="cc"class="button"  onclick="cc(this, 'red')" >C) Tobey Maguire </button>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <h2 id="one"></h2><h2>2) Who sings "Running Up That Hill"</h2>
+            <br>
+            <button id="aatwo" class="button" onclick="aatwo(this, 'red')" >A) Sinéad O'Connor </button>
+            <br>
+            <br>
+            <button id="bbtwo"class="button" onclick="bbtwo(this, 'red')" >B) Bonnie Tyler</button>
+            <br>
+            <br>
+            <button id="cctwo"class="button"  onclick="cctwo(this, 'green')" >C) Kate Bush</button>
+            <br>
+            <br>
+            <hr>
+            <h2>3) How many main Shrek movies are there? </h2>
+            <br>
+            <button id="aathree" class="button" onclick="aathree(this, 'red')" >A) 2</button>
+            <br>
+            <br>
+            <button  id="bbthree" class="button" onclick="bbthree(this, 'red')" >B) 3</button>
+            <br>
+            <br>
+            <button id="ccthree"class="button" onclick="ccthree(this, 'green')" >C) 4 </button>
+            <br>
+            <br>
+            <hr>
+            <h2 id="one"></h2><h2>4) Who is the highest selling band of all time?</h2>
+            <br>
+            <button id="aafour" class="button" onclick="aafour(this, 'red')" >A) U2 </button>
+            <br>
+            <br>
+            <button id="bbfour" class="button" onclick="bbfour(this, 'green')" >B) The Beatles</button>
+            <br>
+            <br>
+            <button id="ccfour" class="button" onclick="ccfour(this, 'red')" >C) Queen </button>
+            <br>
+            <br>
+        </center>
+    </body>
+    
+    </html>

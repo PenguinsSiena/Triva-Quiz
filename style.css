@@ -1,0 +1,82 @@
+#geography
+{
+    background-color: rgb(107, 164, 235);
+    width: 400px;
+    height: 140px;
+    font-size: xx-large;
+    border-radius: 20px;
+    color: white;
+    border-style: none;
+
+}
+#nature
+{
+    background-color: rgb(86, 204, 119);
+    width: 400px;
+    height: 140px;
+    font-size: xx-large;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+    border-style: none;
+}
+
+#mm
+{
+    background-color: rgb(233, 92, 165);
+    width: 400px;
+    height: 140px;
+    font-size: xx-large;
+    border-radius: 20px;
+    color: white;
+    border-style: none;
+}
+#sports
+{
+    background-color: rgb(173, 114, 233);
+    width: 400px;
+    height: 140px;
+    font-size: xx-large;
+    margin-left: 10px;  
+    border-radius: 20px;
+    color: white;
+    border-style: none;
+}
+
+.button{
+    width: 240px;
+    height: 70px;
+    font-size: large;
+    border-style: solid;
+}
+#geog{
+background-color: rgb(107, 164, 235);
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+color: white;
+}
+#left{
+    font-size: large;
+}
+#musi{
+    background-color:  rgb(233, 92, 165);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white; 
+}
+#natu{
+    background-color:   rgb(86, 204, 119);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white; 
+}
+#spor{
+    background-color:  rgb(173, 114, 233);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white; 
+}
